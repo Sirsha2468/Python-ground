@@ -1,0 +1,88 @@
+#ex1
+t1=()
+print("Initial empty tuple")
+print(t1)
+#connvert a string into tuple
+a="hello world"
+print(tuple(a))
+#Accessing a tuple
+t2=("riti","diti","Biraj")
+print(t2[1])
+#inserting an element in tuple
+t3=("bird","Animal","Flower")
+b=list(t3)
+print(b)
+b.append("pond")
+print(tuple(b))
+#Length of tuple
+t4=("Tulu","Tuli","Tulika")
+print(len(t4))
+#Max and Min value from tuple
+t5=("Tuli","Moon","Tulika")
+print(max(t5))
+print(min(t5))
+#find index value from the tuple. Find Index value of 76 
+t6=(10,22,33,44,76,78)
+c=t6.index(76)
+print(c)
+#Ramge the indexes
+t7=("A","B","C","D","E","F")
+print(t7[2:5])
+print(t7[3:])
+print(t7[:5])
+print(t7[-4:-1])
+print(t7[-4:])
+#Add two tuple
+t8=("Guava",)
+t9=("Pear",)
+print(t8+t9)
+#remove an element from a tuple
+t10=(10,20,30,40,50,60)
+d=list(t10)
+d.remove(50)
+print(tuple(d))
+#using asterix
+t11=("A","B","C","D","E")
+(e,f,*g)=t11
+print(e)
+print(f)
+print(g)
+#reverse the list
+t12=(10,20,30,40,50)
+h=list(t12)
+h.reverse()
+print(tuple(h))
+#Accessing value from tuple containing list
+t13=("Orange",[10,20,30],(5,15,16))
+print(t13[1][1])
+#Swap two tuples
+t14=(11,22)
+t15=(12,13)
+t16=()
+t16=t15
+t15=t14
+t14=t16
+print("After swapping t14 is",t16)
+print("After swapping  t15 is",t15)
+#Unoack the tuples into 4 variables
+t17=(11,22,33,44)
+(i,j,k,l)=t17
+print(i)
+print(j)
+print(k)
+print(l)
+#Modify a tuple. Then 22 become 222
+t18=(11,[22,33],44,55)
+t18[1][0]=222
+print(t18)
+#count the occurances. Here find the occurance of 80
+t19=(80,10,20,40,80,80)
+m=t19.count(80)
+print(m)
+#print the 4th element of a given tuple
+t20=("A","B","C","D","E","F")
+print(t20[3])
+#Search if present in list
+t21=("APP","AAA","TTT")
+if "APP" in t21:
+    print("yes")
