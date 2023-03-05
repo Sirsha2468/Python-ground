@@ -22,3 +22,12 @@
 # Program to convert Celcius to Farenhite 
 # celcius = eval(input("Enter the temarature in Celcius: "));
 # print(celcius, "degree celcious in Farenhite is", (celcius * 1.8) + 32,"degree");
+# Progra, to check whether a number is positive, non positive and negetive.....
+num = eval(input("Enter a number: "))
+
+if (num == 0):
+    print(num, "is non positive/negetive");
+elif (num > 0):
+        print(num,"is a positive number");
+else:
+        print(num, "is a negetive number");
