@@ -23,11 +23,17 @@
 # celcius = eval(input("Enter the temarature in Celcius: "));
 # print(celcius, "degree celcious in Farenhite is", (celcius * 1.8) + 32,"degree");
 # Progra, to check whether a number is positive, non positive and negetive.....
-num = eval(input("Enter a number: "))
+# num = eval(input("Enter a number: "))
 
-if (num == 0):
-    print(num, "is non positive/negetive");
-elif (num > 0):
-        print(num,"is a positive number");
-else:
-        print(num, "is a negetive number");
+# if (num == 0):
+#     print(num, "is non positive/negetive");
+# elif (num > 0):
+#         print(num,"is a positive number");
+# else:
+#         print(num, "is a negetive number");
+WAP to check whether a number is odd or even
+# n = eval(input("Enter a integer: "))
+# if(n % 2 == 0):
+#     print(n, "is even")
+# else:
+#     print(n, "is odd")
